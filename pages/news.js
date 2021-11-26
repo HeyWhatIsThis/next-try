@@ -1,15 +1,17 @@
 import Head from "next/head";
 import { Navbar } from "../components/Navbar";
 
-export default function Home() {
+function News() {
   return (
-    <div>
+    <>
       <Head>
-        <title>KSU Lab</title>
+        <title>News | KSU Lab</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div>Hello World</div>
-    </div>
+      <div>News</div>
+    </>
   );
 }
+
+export default News;
