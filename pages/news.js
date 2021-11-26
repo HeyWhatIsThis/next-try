@@ -9,7 +9,15 @@ function News() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div>News</div>
+      <div className="container w-full md:max-w-5xl mx-auto pt-8">
+        <div>
+          <h1 className="font-bold break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">
+            News
+          </h1>
+          <hr />
+          <p className="my-5">This is where the news should go</p>
+        </div>
+      </div>
     </>
   );
 }
