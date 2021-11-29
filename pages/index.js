@@ -6,15 +6,15 @@ import "react-slideshow-image/dist/styles.css";
 const slideImages = [
   {
     url: "https://www.rti.org/sites/default/files/istock_56013860_molecule_computer_2500.jpg",
-    caption: "Slide 1",
+    caption: "",
   },
   {
     url: "https://www.mayo.edu/-/media/kcms/gbs/research/images/2019/02/06/15/18/genetics-bioinformatics-shu-571040611-8col.jpg",
-    caption: "Slide 2",
+    caption: "",
   },
   {
     url: "https://omgenomics.com/assets/bioinformatics-data-science-venn-diagrams.png",
-    caption: "Slide 3",
+    caption: "",
   },
 ];
 
@@ -29,10 +29,15 @@ export default function Home() {
 
       <div className="container w-full md:max-w-5xl mx-auto pt-8">
         <div className="container">
-          <Slide className="mt-20 mb-20">
+          <Slide style={{ height: "350px" }}>
             {slideImages.map((slideImage, index) => (
-              <div className="display: flex h-10" key={index}>
-                <div style={{ backgroundImage: `url(${slideImage.url})` }}>
+              <div key={index}>
+                <div
+                  style={{
+                    height: "350px",
+                    backgroundImage: `url(${slideImage.url})`,
+                  }}
+                >
                   <span>{slideImage.caption}</span>
                 </div>
               </div>
