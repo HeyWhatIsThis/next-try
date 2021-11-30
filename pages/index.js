@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Navbar } from "../components/Navbar";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
+import { Footer } from "../components/Footer";
 
 const slideImages = [
   {
@@ -20,7 +21,7 @@ const slideImages = [
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-gray-50 text-gray-900 h-screen">
       <Head>
         <title>KSU Lab</title>
         <link rel="icon" href="/favicon.ico" />
@@ -52,6 +53,7 @@ export default function Home() {
           <p className="my-5">This is where the news should go</p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
