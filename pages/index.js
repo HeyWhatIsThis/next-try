@@ -53,7 +53,7 @@ export default function Home() {
           <p className="my-5">This is where the news should go</p>
         </div>
       </div>
-      <Footer />
+      <Footer className="mt-20" />
     </div>
   );
 }
