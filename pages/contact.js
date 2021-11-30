@@ -16,6 +16,7 @@ function Contact() {
             Location of the Lab
           </h1>
           <hr />
+          {/* TODO: add google map here */}
           <p className="my-5">College of Computing and Software Engineering</p>
         </div>
       </div>

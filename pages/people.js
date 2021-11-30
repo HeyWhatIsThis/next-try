@@ -24,6 +24,7 @@ function People() {
             <div>5</div> */}
             <img src={"/professor.jpeg"} className="border-2" />
             <>&emsp;</>
+            {/* TODO: figure out how to stack elements pls */}
             <p className="relative z-0">Mohammed Aledhari</p>
             {/* <p className="relative flex items-center z-10">
               Computer Science Professor
