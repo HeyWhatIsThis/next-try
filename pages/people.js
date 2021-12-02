@@ -2,6 +2,10 @@ import Head from "next/head";
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
 
+{
+  /* we could also call it team */
+}
+
 function People() {
   return (
     <div className="bg-gray-50 text-gray-900 h-screen w-screen">
@@ -16,20 +20,17 @@ function People() {
             People
           </h1>
           <hr />
-          <div className="flex content-start my-5">
-            {/* <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
-            <div>5</div> */}
+          <h2 className="text-lg my-7 font-bold">Head of Lab</h2>
+          <div className="flex content-start my-5 text-base">
             <img src={"/professor.jpeg"} className="border-2" />
             <>&emsp;</>
-            {/* TODO: figure out how to stack elements pls */}
-            <p className="relative z-0">Mohammed Aledhari</p>
-            {/* <p className="relative flex items-center z-10">
-              Computer Science Professor
-            </p> */}
+            {/* TODO: make grid items closer */}
+            <div className="grid grid-rows-6">
+              <p className="font-semibold text-lg">Mohammed Aledhari</p>
+              <p className="">Computer Science Professor</p>
+            </div>
           </div>
+          <h2 className="text-lg my-7 font-bold">Graduate Students</h2>
         </div>
       </div>
       <Footer />

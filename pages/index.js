@@ -21,14 +21,14 @@ const slideImages = [
 
 export default function Home() {
   return (
-    <div className="bg-gray-50 text-gray-900 h-screen w-screen">
+    <div className="bg-gray-50 text-gray-900 flex flex-col min-h-screen w-screen">
       <Head>
         <title>KSU Lab</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
 
-      <div className="container w-full md:max-w-5xl mx-auto pt-10 mt-12">
+      <main className=" flex-1 container w-full md:max-w-5xl mx-auto pt-10 mt-12 z-0">
         <div className="container">
           <Slide style={{ height: "350px" }}>
             {slideImages.map((slideImage, index) => (
@@ -49,7 +49,7 @@ export default function Home() {
         </div>
         <div className="text-gray-900">
           <h1 className="font-bold break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-3xl">
-            Computational Healthcare and Biotechnology
+            Computational Healthcare and Biotechnology (COHB) Lab
           </h1>
           <hr />
           <div className="grid grid-cols-2 divide-x my-5">
@@ -67,8 +67,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
-      <Footer className="mt-20" />
+      </main>
+      <Footer className="mt-20 z-10" />
     </div>
   );
 }

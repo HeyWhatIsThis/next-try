@@ -15,7 +15,7 @@ function News() {
           News
         </h1>
         <hr />
-        <p className="my-5">This is where the news should go</p>
+        <p className="my-5 text-base">This is where the news should go</p>
       </div>
       <Footer />
     </div>

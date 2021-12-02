@@ -15,7 +15,7 @@ function Research() {
           Research
         </h1>
         <hr />
-        <p className="my-5">Describe research here</p>
+        <p className="my-5 text-base">Describe research here</p>
       </div>
       <Footer />
     </div>
