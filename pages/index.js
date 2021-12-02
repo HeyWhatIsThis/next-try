@@ -7,15 +7,15 @@ import { Footer } from "../components/Footer";
 const slideImages = [
   {
     url: "https://www.rti.org/sites/default/files/istock_56013860_molecule_computer_2500.jpg",
-    caption: "",
+    caption: "Caption",
   },
   {
     url: "https://www.mayo.edu/-/media/kcms/gbs/research/images/2019/02/06/15/18/genetics-bioinformatics-shu-571040611-8col.jpg",
-    caption: "",
+    caption: "Caption",
   },
   {
     url: "https://omgenomics.com/assets/bioinformatics-data-science-venn-diagrams.png",
-    caption: "",
+    caption: "Caption",
   },
 ];
 
@@ -39,18 +39,33 @@ export default function Home() {
                     backgroundImage: `url(${slideImage.url})`,
                   }}
                 >
-                  <span>{slideImage.caption}</span>
+                  <span className="ml-2 text-gray-900 text-base font-normal hover:bg-blue-50	">
+                    {slideImage.caption}
+                  </span>
                 </div>
               </div>
             ))}
           </Slide>
         </div>
-        <div>
-          <h1 className="font-bold break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">
-            KSU BioInformatics Lab
+        <div className="text-gray-900">
+          <h1 className="font-bold break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-3xl">
+            Computational Healthcare and Biotechnology
           </h1>
           <hr />
-          <p className="my-5">This is where the news should go</p>
+          <div className="grid grid-cols-2 divide-x my-5">
+            <div>
+              <h5 className="font-semibold my-5 text-lg">Introduction</h5>
+              <p className="my-5 text-base">
+                We are a research group at Kennesaw State University...
+              </p>
+            </div>
+            <div>
+              <h5 className="font-semibold my-5 text-lg ml-3">News</h5>
+              <p className="my-5 ml-3 text-base">
+                Images and captions for news posts go here
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <Footer className="mt-20" />
