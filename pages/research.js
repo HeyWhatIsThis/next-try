@@ -4,7 +4,7 @@ import { Footer } from "../components/Footer";
 
 function Research() {
   return (
-    <div className="bg-gray-50 text-gray-900 h-screen w-screen">
+    <div className="bg-gray-50 text-gray-900 flex flex-col min-h-screen w-screen">
       <Head>
         <title>Research | KSU Lab</title>
         <link rel="icon" href="/favicon.ico" />

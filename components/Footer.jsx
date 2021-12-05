@@ -2,7 +2,7 @@ import React from "react";
 /* fixed inset-x-0 bottom-0 p-2	 */
 export const Footer = () => {
   return (
-    <footer className="mt-auto p-4 inset-x-0">
+    <footer className="mt-auto p-4">
       <hr />
       <body className="flex justify-center m-5 text-gray-600 text-sm">
         <a
@@ -11,8 +11,7 @@ export const Footer = () => {
         >
           KSU
         </a>
-        &nbsp;BioInformatics Lab, 1100 South Marietta Pkwy SE, Marietta, GA
-        30060
+        &nbsp;BioInformatics Lab, *insert location*
       </body>
     </footer>
   );

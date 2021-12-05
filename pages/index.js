@@ -27,8 +27,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-
-      <main className=" flex-grow container w-full md:max-w-5xl mx-auto pt-10 mt-12 ">
+      {/* container w-full md:max-w-5xl mx-auto pt-10 mt-10 */}
+      <main className=" container w-full md:max-w-5xl mx-auto pt-10 mt-10 ">
         <div className="container">
           <Slide style={{ height: "350px" }}>
             {slideImages.map((slideImage, index) => (
