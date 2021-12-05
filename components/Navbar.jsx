@@ -9,7 +9,7 @@ export const Navbar = () => {
   };
   return (
     <>
-      <nav className="flex items-center bg-gradient-to-r from-blue-900 to-green-700 p-4 w-full overflow-hidden absolute top-0 left-0 ">
+      <nav className="flex items-center bg-gradient-to-r from-blue-900 to-green-700 p-4 w-full overflow-hidden absolute top-0 left-0">
         <>
           <Link href="/">
             <a className="inline-flex items-center px-4">
