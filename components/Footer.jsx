@@ -11,7 +11,8 @@ export const Footer = () => {
         >
           KSU
         </a>
-        &nbsp;BioInformatics Lab, *insert location*
+        &nbsp;BioInformatics Lab, 1100 South Marietta Pkwy SE, Marietta, GA
+        30060
       </body>
     </footer>
   );
