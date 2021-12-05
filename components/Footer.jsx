@@ -1,8 +1,8 @@
 import React from "react";
-
+/* fixed inset-x-0 bottom-0 p-2	 */
 export const Footer = () => {
   return (
-    <footer className="mt-auto fixed inset-x-0 bottom-0 p-2	">
+    <footer className="mt-auto p-4 inset-x-0">
       <hr />
       <body className="flex justify-center m-5 text-gray-600 text-sm">
         <a
