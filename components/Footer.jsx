@@ -2,7 +2,7 @@ import React from "react";
 
 export const Footer = () => {
   return (
-    <footer className="mt-10 absolute bottom-0 w-screen backdrop-opacity-100	">
+    <footer className="mt-auto fixed inset-x-0 bottom-0 p-2	">
       <hr />
       <body className="flex justify-center m-5 text-gray-600 text-sm">
         <a

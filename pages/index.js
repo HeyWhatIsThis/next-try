@@ -21,7 +21,7 @@ const slideImages = [
 
 export default function Home() {
   return (
-    <div className="bg-gray-50 text-gray-900 flex flex-col min-h-screen w-screen">
+    <div className="bg-gray-50 text-gray-900 flex min-h-screen w-screen">
       <Head>
         <title>KSU Lab</title>
         <link rel="icon" href="/favicon.ico" />

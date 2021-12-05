@@ -17,6 +17,10 @@ Use a better box model (opinionated).
   box-sizing: border-box;
 }
 
+/* html {
+  height: 100%
+} */
+
 /**
 Use a more readable tab size (opinionated).
 */

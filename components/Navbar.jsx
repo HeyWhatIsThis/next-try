@@ -9,10 +9,10 @@ export const Navbar = () => {
   };
   return (
     <>
-      <nav className="flex items-center flex-wrap bg-gradient-to-r from-blue-900 to-green-700 p-4 absolute top-0 w-full  ">
+      <nav className="flex items-center flex-wrap bg-gradient-to-r from-blue-900 to-green-700 p-4 absolute top-0 w-full overflow-auto  ">
         <>
           <Link href="/">
-            <a className="inline-flex items-center p-2 mr-4 md:ml-4">
+            <a className="inline-flex items-center mr-4 md:ml-4">
               {/* <svg
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
