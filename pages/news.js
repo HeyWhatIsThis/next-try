@@ -4,7 +4,7 @@ import { Footer } from "../components/Footer";
 
 function News() {
   return (
-    <div className="bg-gray-50 text-gray-900 flex flex-col min-h-screen w-screen overflow-hidden">
+    <div className="bg-gray-50 text-gray-900 flex flex-col min-h-screen overflow-hidden">
       <Head>
         <title>News | KSU Lab</title>
         <link rel="icon" href="/favicon.ico" />
