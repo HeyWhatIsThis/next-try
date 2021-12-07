@@ -2,6 +2,11 @@ import Head from "next/head";
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
 
+{
+  /*
+  TODO: ask if we need to add any more directions here
+  */
+}
 function Contact() {
   return (
     <div className="bg-gray-50 text-gray-900 flex flex-col min-h-screen w-screen">

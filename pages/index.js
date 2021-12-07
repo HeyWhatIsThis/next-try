@@ -5,21 +5,12 @@ import { NewSlideshow } from "../components/NewSlideshow";
 import "react-slideshow-image/dist/styles.css";
 import { Footer } from "../components/Footer";
 
-const slideImages = [
-  {
-    url: "https://www.rti.org/sites/default/files/istock_56013860_molecule_computer_2500.jpg",
-    caption: "Caption",
-  },
-  {
-    url: "https://www.mayo.edu/-/media/kcms/gbs/research/images/2019/02/06/15/18/genetics-bioinformatics-shu-571040611-8col.jpg",
-    caption: "Caption",
-  },
-  {
-    url: "https://omgenomics.com/assets/bioinformatics-data-science-venn-diagrams.png",
-    caption: "Caption",
-  },
-];
-
+{
+  /*
+  TODO: remake slideshow component so you can display captions on the sides
+  TODO: make the background color go all the way down
+  */
+}
 export default function Home() {
   return (
     <div className="bg-gray-50 text-gray-900 flex flex-col min-h-screen w-screen">

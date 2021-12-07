@@ -5,6 +5,13 @@ import genetics from "../assets/genetics.jpg";
 import rename from "../assets/rename.jpg";
 import Image from "next/image";
 
+{
+  /*
+    TODO: make news posts array so the posts aren't hardcoded anymore
+    TODO: resize images to all thes same size or figure out how to set the size all the same in the code
+  */
+}
+
 function News() {
   return (
     <div className="bg-gray-50 text-gray-900 flex flex-col min-h-screen w-screen">

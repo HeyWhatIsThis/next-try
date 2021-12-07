@@ -3,7 +3,9 @@ import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
 
 {
-  /* we could also call it team */
+  /* we could also call it team 
+  TODO: make people's pictures and info display in a horizontal grid
+  */
 }
 
 function People() {
