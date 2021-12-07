@@ -1,6 +1,9 @@
 import Head from "next/head";
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
+import genetics from "../assets/genetics.jpg";
+import rename from "../assets/rename.jpg";
+import Image from "next/image";
 
 function News() {
   return (
@@ -15,7 +18,47 @@ function News() {
           News
         </h1>
         <hr />
-        <p className="my-5 text-base">Write news here</p>
+        <div className="md:flex my-9 h-full">
+          <Image src={genetics} className="" />
+          <div className="ml-4 w-11/12">
+            <h1 className="font-semibold text-blue-800 text-xl">
+              News Post Title
+            </h1>
+            <p className="my-1 font-normal italic text-gray-400">
+              December 7, 2021
+            </p>
+            <p className="my-2 text-base font-normal text-gray-900">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+        <hr className="" />
+        <div className="md:flex my-9 h-full">
+          <Image src={rename} className="" />
+          <div className="ml-4 w-11/12">
+            <h1 className="font-semibold text-blue-800 text-xl">
+              News Post Title
+            </h1>
+            <p className="my-1 font-normal italic text-gray-400">
+              December 7, 2021
+            </p>
+            <p className="my-2 text-base font-normal text-gray-900">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
       </div>
       <Footer />
     </div>

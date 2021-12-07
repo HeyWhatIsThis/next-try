@@ -38,7 +38,7 @@ export const Slideshow = () => {
                 : index == 1
                 ? setControlIndex(1)
                 : setControlIndex(2)} */}
-              {console.log(controlIndex)}
+              {/* {console.log(controlIndex)} */}
 
               <div
                 className="h-96 w-full"

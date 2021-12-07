@@ -65,22 +65,22 @@ export const Navbar = () => {
                   People
                 </a>
               </Link>
-              <Link href="/">
+              <Link href="/publications">
                 <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-50 font-semibold items-center justify-center hover:bg-green-600 hover:text-white">
                   Publications
                 </a>
               </Link>
-              <Link href="/">
+              <Link href="/supplements">
                 <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-50 font-semibold items-center justify-center hover:bg-green-600 hover:text-white">
                   Supplements
                 </a>
               </Link>
-              <Link href="/">
+              <Link href="/software">
                 <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-50 font-semibold items-center justify-center hover:bg-green-600 hover:text-white">
                   Software
                 </a>
               </Link>
-              <Link href="/">
+              <Link href="/positions">
                 <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-50 font-semibold items-center justify-center hover:bg-green-600 hover:text-white">
                   Positions
                 </a>
