@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Navbar } from "../components/Navbar";
-import { Slide } from "react-slideshow-image";
+import { Slideshow } from "../components/Slideshow";
+import { NewSlideshow } from "../components/NewSlideshow";
 import "react-slideshow-image/dist/styles.css";
 import { Footer } from "../components/Footer";
 
@@ -29,24 +30,7 @@ export default function Home() {
       <Navbar />
       {/* container w-full md:max-w-5xl mx-auto pt-10 mt-10 */}
       <main className=" container w-full md:max-w-5xl mx-auto pt-10 mt-10 ">
-        <div className="container">
-          <Slide style={{ height: "350px" }}>
-            {slideImages.map((slideImage, index) => (
-              <div key={index}>
-                <div
-                  style={{
-                    height: "350px",
-                    backgroundImage: `url(${slideImage.url})`,
-                  }}
-                >
-                  <span className="ml-2 text-gray-900 text-base font-normal hover:bg-blue-50	">
-                    {slideImage.caption}
-                  </span>
-                </div>
-              </div>
-            ))}
-          </Slide>
-        </div>
+        <Slideshow />
         <div className="text-gray-900">
           <h1 className="font-bold break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-3xl">
             Computational Healthcare and Biotechnology (COHB) Lab
@@ -60,7 +44,7 @@ export default function Home() {
               </p>
             </div>
             <div>
-              <h5 className="font-semibold my-5 text-lg ml-3">News</h5>
+              <h5 className="font-semibold my-5 text-lg ml-3">Latest News</h5>
               <p className="my-5 ml-3 text-base">
                 Images and captions for news posts go here
               </p>
