@@ -26,16 +26,16 @@ export default function Home() {
             Computational Healthcare and Biotechnology (COHB) Lab
           </h1>
           <hr />
-          <div className="grid grid-cols-2 divide-x my-5">
+          <div className="grid md:grid-cols-2 md:divide-x my-5">
             <div>
               <h5 className="font-semibold my-5 text-lg">Introduction</h5>
               <p className="my-5 text-base">
                 We are a research group at Kennesaw State University...
               </p>
             </div>
-            <div>
-              <h5 className="font-semibold my-5 text-lg ml-3">Latest News</h5>
-              <p className="my-5 ml-3 text-base">
+            <div className="md:pl-3">
+              <h5 className="font-semibold my-5 text-lg">Latest News</h5>
+              <p className="my-5 text-base">
                 Images and captions for news posts go here
               </p>
             </div>
