@@ -28,7 +28,7 @@ const properties = {
 export const Slideshow = () => {
   const [controlIndex, setControlIndex] = useState(0);
   return (
-    <div className="container pb-5 text-base">
+    <div className="container pb-5 text-base z-0">
       <div className="flex w-full md:max-w-5xl">
         <Slide className="h-96 w-full" {...properties}>
           {slideImages.map((slideImage, index) => (

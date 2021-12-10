@@ -9,10 +9,10 @@ export const Navbar = () => {
   };
   return (
     <>
-      <nav className="flex items-center bg-gradient-to-r from-blue-900 to-green-700 p-4 w-full overflow-hidden absolute top-0 left-0">
+      <nav className="flex items-center bg-gradient-to-r from-blue-900 to-green-700 px-5 py-4 w-full overflow-hidden absolute top-0 left-0 z-10">
         <>
           <Link href="/">
-            <a className="inline-flex items-center px-4">
+            <a className="inline-flex items-center sm:px-4">
               {/* <svg
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@ export const Navbar = () => {
           >
             <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto mr-5 text-base">
               <Link href="/news">
-                <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-50 font-semibold items-center justify-center hover:underline hover:text-white ">
+                <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-50 font-semibold items-center justify-center hover:bg-green-600 hover:text-white ">
                   News
                 </a>
               </Link>

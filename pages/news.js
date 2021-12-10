@@ -20,14 +20,14 @@ function News() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div className="container w-full md:max-w-5xl mx-auto pt-10 mt-10">
+      <div className="container w-full md:max-w-5xl px-5 sm:mx-auto pt-10 mt-10">
         <h1 className="font-bold break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">
           News
         </h1>
         <hr />
         <div className="md:flex my-9 h-full">
           <Image src={genetics} className="" />
-          <div className="ml-4 w-11/12">
+          <div className="md:ml-4 w-11/12">
             <h1 className="font-semibold text-blue-800 text-xl">
               News Post Title
             </h1>
@@ -48,7 +48,7 @@ function News() {
         <hr className="" />
         <div className="md:flex my-9 h-full">
           <Image src={rename} className="" />
-          <div className="ml-4 w-11/12">
+          <div className="md:ml-4 w-11/12">
             <h1 className="font-semibold text-blue-800 text-xl">
               News Post Title
             </h1>

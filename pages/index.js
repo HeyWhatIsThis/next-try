@@ -19,8 +19,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      {/* container w-full md:max-w-5xl mx-auto pt-10 mt-10 */}
-      <main className=" container w-full md:max-w-5xl mx-auto pt-10 mt-10 ">
+      <main className="container w-full md:max-w-5xl px-5 sm:mx-auto  pt-10 mt-10 ">
         <Slideshow />
         <div className="text-gray-900">
           <h1 className="font-bold break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-3xl">

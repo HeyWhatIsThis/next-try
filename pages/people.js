@@ -16,14 +16,14 @@ function People() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div className="container w-full md:max-w-5xl mx-auto pt-10 mt-10">
+      <div className="container w-full md:max-w-5xl px-5 sm:mx-auto pt-10 mt-10">
         <div>
           <h1 className="font-bold break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">
             People
           </h1>
           <hr />
           <h2 className="text-lg my-7 font-bold">Head of Lab</h2>
-          <div className="flex content-start my-5 text-base">
+          <div className="md:flex content-start my-5 text-base">
             <img src={"/professor.jpeg"} className="border-2" />
             <>&emsp;</>
             {/* TODO: make grid items closer */}
