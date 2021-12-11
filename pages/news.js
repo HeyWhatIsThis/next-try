@@ -26,8 +26,14 @@ function News() {
         </h1>
         <hr />
         <div className="md:flex my-9 h-full">
-          <Image src={genetics} className="" />
-          <div className="md:ml-4 w-11/12">
+          <Image
+            src={genetics}
+            objectFit="cover"
+            width={900}
+            height={500}
+            className=""
+          />
+          <div className="md:ml-4 ">
             <h1 className="font-semibold text-blue-800 text-xl">
               News Post Title
             </h1>
@@ -47,8 +53,14 @@ function News() {
         </div>
         <hr className="" />
         <div className="md:flex my-9 h-full">
-          <Image src={rename} className="" />
-          <div className="md:ml-4 w-11/12">
+          <Image
+            src={rename}
+            objectFit="cover"
+            width={900}
+            height={500}
+            className=""
+          />
+          <div className="md:ml-4">
             <h1 className="font-semibold text-blue-800 text-xl">
               News Post Title
             </h1>
