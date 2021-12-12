@@ -1,5 +1,4 @@
 import React from "react";
-/* fixed inset-x-0 bottom-0 p-2	 */
 export const Footer = () => {
   return (
     <footer className="mt-auto p-4">
