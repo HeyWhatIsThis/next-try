@@ -33,13 +33,6 @@ export const Slideshow = () => {
         <Slide className="h-96 w-full" {...properties}>
           {slideImages.map((slideImage, index) => (
             <div onChange={() => setControlIndex(index)} key={index}>
-              {/* {index == 0
-                ? setControlIndex(0)
-                : index == 1
-                ? setControlIndex(1)
-                : setControlIndex(2)} */}
-              {/* {console.log(controlIndex)} */}
-
               <div
                 className="h-96 w-full"
                 style={{
@@ -49,13 +42,6 @@ export const Slideshow = () => {
                 <span className="ml-2 text-gray-900 text-base font-normal bg-blue-50 hover:bg-white">
                   {slideImage.caption}
                 </span>
-                {/* {index == 0 ? (
-                  <span className="ml-2 text-gray-900 text-base font-normal hover:bg-blue-50">
-                    {slideImage.caption}
-                  </span>
-                ) : (
-                  <span>waa</span>
-                )} */}
               </div>
             </div>
           ))}
