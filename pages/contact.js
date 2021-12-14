@@ -7,7 +7,7 @@ import { Footer } from "../components/Footer";
   TODO: ask if we need to add any more directions here
   TODO: change location url
   TODO: add directions for marietta campus and link to map
-  TODO: add contact form
+  TODO: add contact form through npm package
   */
 }
 function Contact() {
