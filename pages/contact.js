@@ -5,6 +5,9 @@ import { Footer } from "../components/Footer";
 {
   /*
   TODO: ask if we need to add any more directions here
+  TODO: change location url
+  TODO: add directions for marietta campus and link to map
+  TODO: add contact form
   */
 }
 function Contact() {
@@ -23,24 +26,32 @@ function Contact() {
           <hr />
           <div className="overflow-hidden md:flex content-start text-base">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.157545647305!2d-84.52191994870782!3d33.93707583114171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5115510312027%3A0x81ce76f9703afb9c!2sKennesaw%20State%20University%20-%20Marietta%20Campus!5e0!3m2!1sen!2sus!4v1638740161753!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.155524081898!2d-84.52237214870784!3d33.93712783113908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f511548ff4b20f%3A0x47785ab11e0d0e02!2sKennesaw%20State%20University%20Atrium%20Building!5e0!3m2!1sen!2sus!4v1639507529731!5m2!1sen!2sus"
               width="480"
               height="360"
               allowfullscreen=""
               loading="lazy"
               className="border-2 mt-8"
             ></iframe>
+
             <div className="py-8 pl-4">
               <p className="py-1">Kennesaw State University, Marietta Campus</p>
               <p className="py-1">
                 College of Computing and Software Engineering
               </p>
-              <p className="py-1">Atrium Building, J-number</p>
-              <p className="py-1">Marietta, GA 30060 </p>
-              <p className="py-1">Phone: </p>
-              <p className="py-1">Email:</p>
+              <p className="py-1">
+                1100 South Marietta Pkwy SE, Marietta, GA 30060
+              </p>
+              <p className="py-1">
+                Lab Building: Atrium Building (J) Room J106, MD 9047
+              </p>
+              <p className="py-1">680 Arntson Drive</p>
+              <p className="py-1">Phone: 470-578-3934</p>
+              <p className="py-1">Fax: 470-578-9032</p>
+              <p className="py-1">Email: maledhari@kennesaw.edu</p>
             </div>
           </div>
+
           {/* if we need more directions to the lab, you can put them here*/}
         </div>
       </div>

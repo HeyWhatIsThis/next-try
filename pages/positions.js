@@ -2,6 +2,10 @@ import Head from "next/head";
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
 
+/* 
+TODO: add contact link
+ */
+
 function Positions() {
   return (
     <div className="bg-gray-50 text-gray-900 flex flex-col min-h-screen w-screen">
@@ -15,7 +19,12 @@ function Positions() {
           Positions
         </h1>
         <hr />
-        <p className="my-5 text-base">Describe positions here</p>
+        <div className="my-5 text-base">Graduate research assistant</div>
+        <div className="my-5 text-base">Undergraduate research assistant</div>
+        <div className="my-5 text-base">Volunteer</div>
+        <div className="my-5 text-base">
+          Special Topics in Computer Science: Resarch Courses
+        </div>
       </div>
       <Footer />
     </div>

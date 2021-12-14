@@ -5,6 +5,7 @@ import { Footer } from "../components/Footer";
 {
   /* we could also call it team 
   TODO: make people's pictures and info display in a horizontal grid
+  TODO: put people's info in json file
   */
 }
 

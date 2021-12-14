@@ -3,6 +3,10 @@ import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
 import publications from "../data/publication_data";
 
+/*
+make publications page closer to google scholar
+*/
+
 function Publications() {
   return (
     <div className="bg-gray-50 text-gray-900 flex flex-col min-h-screen w-screen">
